@@ -1,0 +1,216 @@
+/* .dp-wrapper{
+   
+  
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dp-about{
+    font-weight: 500;
+    
+}
+
+.dp-steps{
+    font-weight: 300;
+   
+    background-blend-mode: lighten;
+}
+
+
+
+.dp-predictor{
+  
+    padding-left: 300px;
+
+    background-size: 1400px 700px;
+    background-repeat: no-repeat;
+    background-position: 0px -10px;
+    border-radius: 20px;
+    
+
+    padding-bottom: 100px;
+}
+
+.dp-predictor-img{
+    display: none;;
+    
+}
+.custome-file{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 20px;
+    color : rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color:  lightgray;
+    box-shadow: 1px 1px 10px 2px lightgray;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+.dp-submit{
+
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    color : darkgreen;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color:  rgb(129, 218, 129);
+    box-shadow: 1px 1px 10px 2px lightgreen;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 700;
+}
+.dp-delete{
+
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    color : rgb(100, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color:  rgb(218, 129, 129);
+    box-shadow: 1px 1px 10px 2px rgb(188, 50, 50);
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 700;
+
+}
+ */
+ .dp-wrapper{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.95;
+}
+.dp-about{
+    font-weight: 500;
+    
+}
+
+.dp-steps{
+    font-weight: 300;
+
+}
+
+
+
+.dp-predictor{
+
+    background-color: white;
+    box-shadow: 2px 2px 10px 5px lightgray;
+    height: 500px;
+    width: 700px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    
+}
+
+.pred-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pred-img{
+    margin: 50px;
+    margin-left: -20px;
+}
+.dp-predictor-img{
+    /* display: none;; */
+   opacity: 0;
+   width: 0px;
+
+    
+}
+.dp-rescomp{
+    padding-top: 20px;
+    
+}
+.dp-results{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    
+    box-shadow: 2px 2px 10px 5px lightgray;
+
+    margin-top: 30px;
+    width: 600px;
+    height: 530px;
+    border-radius: 20px;
+    
+    margin-left: 50px;
+}
+.custome-file{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 20px;
+    color : rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color:  lightgray;
+    box-shadow: 1px 1px 10px 2px lightgray;
+    margin: 20px;
+    margin-left: -20px;
+    font-weight: 700;
+}
+
+.dp-submit{
+
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    color : rgb(0, 76, 0);
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color:  rgb(129, 218, 129);
+    box-shadow: 1px 1px 10px 2px lightgray;
+    
+    margin: 20px;
+    
+    font-weight: 700;
+}
+.dp-delete{
+
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    color : rgb(100, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color:  rgb(218, 129, 129);
+    box-shadow: 1px 1px 10px 2px rgb(188, 50, 50);
+    
+    margin: 20px;
+    
+    font-weight: 700;
+
+}
+
+.dp-disease{
+    margin-left: 50px;
+    font-size: 21px;
+   
+
+}
+

@@ -1,0 +1,110 @@
+.content{
+   
+    /* background-image: url('../../assets/prbg2.jpg');
+    background-size: 1600px 1200px;
+    background-repeat: no-repeat;
+
+
+    */
+
+    background-image: url('../../assets/bg5.avif');
+    background-repeat: repeat;
+    background-size: 600px 400px;
+    margin: -4px;
+   
+    
+}
+
+.navbar-icon{
+  padding-left:25px;
+  padding-top: 20px;
+}
+.navbar-wrapper{
+    opacity: 0.95;
+    margin-top: 10px;
+    display: flex;
+   
+    background-color: white;
+    box-shadow: 5px 5px 15px 2px gray;
+    margin-top: -10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-blend-mode:color;
+    
+
+}
+.navbar-content{
+   
+    /* background-color: white; */
+   
+   
+    margin: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 100px;
+    /* box-shadow: 1px 1px 20px 1px gray; */
+    /* opacity: 0.5; */
+
+}
+.navbar-title{
+
+    font-weight: 900;
+    margin-right: 300px;
+    margin-left: 15px;
+    color: rgb(62, 138, 62);
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-items{
+    display: flex;    
+    
+}
+
+.content .navbar-items a.active p {
+    font-weight: 1000;
+    color: rgb(2, 82, 5);
+    background-color: rgb(192, 251, 192);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px lightgreen;
+
+}
+
+p{
+    padding: 10px;
+}
+.navbar-dieseaPredictor{
+    padding-top: 0px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+   
+    
+}
+
+.navbar-diseases{
+    padding-top: 0px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+   
+    
+}
+.navbar-cure{
+    padding-top: 0px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.navbar-about{
+    padding-top: 0px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+
+}

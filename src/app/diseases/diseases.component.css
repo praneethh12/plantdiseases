@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.diseases-wrapper{
+    background-color: white;
+    box-shadow: 2px 2px 10px 2px gray;
+    border-radius: 20px;
+    opacity: 0.95;
+    width: 1200px;
+    margin-left: 150px;
+    padding-bottom: 30px;
+}
+.d-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.d-header .wrapper h3{
+    font-size: 30px;
+   
+}
+.d-header .wrapper p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 900px;
+}
+.d-row1{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.d-row2{
+
+    display: flex;
+    justify-content: center;
+
+}

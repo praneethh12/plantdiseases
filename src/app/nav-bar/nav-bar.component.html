@@ -1,0 +1,60 @@
+<div class="content">
+    <div class="navbar-wrapper">
+
+       <div class="navbar-icon">
+
+        <img src="..\..\assets\icon.png" alt="icon" height="55px">
+
+       </div>
+        <div class="navbar-title">
+            <h1> {{title}} </h1>
+        </div>
+
+        <div class="navbar-items">
+
+            <!-- three fields : Predictor(default),About the disease(Dropdown), Cure(Dropdown) -->
+
+            <div class="navbar-dieseaPredictor">
+
+                <a routerLink="/predictor" routerLinkActive="active">
+                    <p> Predictor</p>
+                </a>
+
+            </div>
+
+            <div class="navbar-diseases">
+                <a routerLink="/diseases" routerLinkActive="active">
+                    <p>Diseases</p>
+                </a>
+
+            </div>
+
+            <div class="navbar-cure">
+
+                <a routerLink="/cures" routerLinkActive="active">
+                    <p>Remedies</p>
+                </a>
+
+            </div>
+
+            <div class="navbar-about">
+
+                <a routerLink="/cures" routerLinkActive="active">
+                    <p>About</p>
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="navbar-content">
+
+        <router-outlet></router-outlet>
+
+    </div>
+    
+</div>

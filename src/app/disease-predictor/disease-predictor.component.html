@@ -1,0 +1,157 @@
+<!-- <div class="dp-wrapper">
+
+    <div class="dp-about">
+
+        <p>
+
+            GreenGuardian is an project developed to provide a one stop solution for the
+            problems experienced by the farmers of the nation. The project helps to predict the
+            some of the diseases that have common occurrences in various plants grown by the farmers.
+            <br>
+            <br>
+            <strong style="color: red;"> <strong>Disclaimer</strong>!! It is important to note that the model can
+                predict diseases that may not necessarily
+                afflict the plants.
+                Therefore, it is recommended to use the application at a basic level and exercise caution in its
+                utilization.
+            </strong>
+
+        </p>
+
+    </div>
+
+    <div class="dp-predcitor-container">
+        <div class="dp-steps">
+
+            <h3> The users are redirected to follow the steps mentioned below
+                before uploading the picture </h3>
+            <ul>
+                <li> Make sure that the image is clear and has sufficient quality.</li>
+                <li> The image must contain only a single leaf and not the whole plant.</li>
+                <li> The leaf must clearly depict the symptons showcased by the plant like Drying out,Patches etc.</li>
+                <li> If possible please pluck the leaf and upload the image, so that the background does not cotain
+                    other leaves.</li>
+                <li> Click on the select file icon and select the image to be uploaded.</li>
+                <li> Please verify the preview before submitting the image.</li>
+                <li> Please be patient and wait for the model to predict the disease. It make take a couple of minutes
+                    to complete the prediction.</li>
+            </ul>
+
+
+        </div>
+        <br><br><br>
+        <div class="dp-predictor">
+
+            <img src="{{imageURL}}" style="padding-left: 150px;
+            height: 350px;
+        
+            ">
+            <br>
+            <br>
+            <br>
+            <label for="fileIp" class="custome-file">
+                Upload Image
+            </label>
+            <input type="file" id="fileIp" (change)="imageHandler($event)" class="dp-predictor-img">
+
+            <button (click)="myFun()" class="dp-submit">Predict Disease</button>
+            <button (click)="handleDelete()" class="dp-delete">Delete Image</button>
+
+        </div>
+    </div>
+
+
+    <div class="dp-results">
+
+        <div *ngIf="isLoading">
+            <app-loading ></app-loading>
+        </div>
+        <div *ngIf="!isLoading&&!isResultavailable">
+            <h3>Please upload the image and hit Upload image button 
+                to start predicting.
+            </h3>
+
+        </div>
+        <div *ngIf="isResultavailable">
+           
+           
+            <app-resultchart [diseaseSubject]="dataObserver$"></app-resultchart>
+            
+        </div>
+
+    </div>
+
+
+
+
+
+
+</div> -->
+<div class="dp-wrapper">
+
+    <div class="dp-predictor">
+
+        <div class="pred-img">
+
+            <img src="{{imageURL}}" style="padding-left: 200px;
+            height: 280px;">
+
+        </div>
+
+      
+        <div class="pred-buttons">
+
+            <div>
+
+                <label for="fileIp" class="custome-file">
+                    Upload Image
+                </label>
+                <input type="file" id="fileIp" (change)="imageHandler($event)" class="dp-predictor-img">
+            </div>
+            <div>
+                <button (click)="myFun()" class="dp-submit">Predict Disease</button>
+
+            </div>
+
+            <div>
+
+                <button (click)="handleDelete()" class="dp-delete">Delete Image</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+
+    <div class="dp-results">
+
+        <div *ngIf="isLoading">
+            
+            <app-loading></app-loading>
+           
+        </div>
+        <div *ngIf="!isLoading&&!isResultavailable">
+            <h3>Please upload the image and hit Predict button
+                <br>
+                to start predicting.
+            </h3>
+
+        </div>
+        <div *ngIf="isResultavailable" class="dp-rescomp">
+
+
+            <app-resultchart [diseaseSubject]="dataObserver$"></app-resultchart>
+            <p class="dp-disease">Your plant maybe affected with <span style="font-weight: 700; font-size: 25px;">{{finalDiseasePrediction}}</span>!!</p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</div>

@@ -1,0 +1,62 @@
+
+.loading-bar {
+    position: absolute;
+    top: 82px;
+    left: 5px;
+    width: 99%; 
+    height: 4px; 
+    background: linear-gradient(to right, #4CAF50 0%, #4CAF50 20%, #2E7D32 20%, #2E7D32 40%, #5CB85C 40%, #5CB85C 60%, #8BC34A 60%, #8BC34A 80%, #CDDC39 80%, #CDDC39 100%); 
+    background-size: 200% 100%; 
+    background-position: 100% 0; 
+    border-radius: 50%;
+    z-index: 9999;
+    animation: loading-animation 1.5s linear infinite; 
+  }
+  
+  @keyframes loading-animation {
+    0% {
+      background-position: 100% 0; 
+    }
+    100% {
+      background-position: -100% 0; 
+    }
+  }
+
+.loading-message{
+    font-size: 25px;
+    padding-top: 5px;
+    color: darkgreen;
+    font-weight: 700;
+
+}
+
+
+
+mat-spinner {
+  border-color: #91e491 !important; 
+}
+
+
+mat-spinner circle {
+  stroke: #38df38 !important;
+}
+
+mat-spinner circle:nth-child(3) {
+  stroke: #00f300 !important;
+}
+
+
+.spinner{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.loading-status{
+  position: absolute;
+  top: 400px;
+  left: 1070px;
+  font-weight: 700;
+  color: rgb(1, 71, 1);
+}
+
+
